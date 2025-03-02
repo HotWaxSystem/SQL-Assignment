@@ -17,4 +17,8 @@ select ri.order_id,
        ri.return_reason_id as return_reason,
        ri.return_quantity
 from return_header rh
-JOIN return_item ri on ri.return_id = rh.return_id;
+JOIN return_item ri on ri.return_id = rh.return_id
+WHERE ri.order_id in(
+SELECT order_id FROM return_item GROUP by order_id having count(order_id)>1
+)
+ORDER BY ri.order_id,rh.return_date;
