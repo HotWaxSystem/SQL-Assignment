@@ -22,4 +22,5 @@ select p.product_id,
        pf.last_updated_stamp as Date_Checked
 from product p
 JOIN Inventory_Item ii on ii.product_id = p.product_id
-JOIN Product_facility pf on pf.product_id = p.product_id;
+JOIN Product_facility pf on pf.product_id = p.product_id
+where pf.minimum_stock > ii.quantity_on_hand_total;
