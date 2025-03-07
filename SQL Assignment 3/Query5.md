@@ -31,3 +31,4 @@ JOIN Order_header oh on oh.order_id = ri.order_id
 JOIN return_adjustment ra on ra.return_id = rh.return_id;
 
 ```
+![image](https://github.com/user-attachments/assets/dee407eb-987d-43c3-acef-0088baff4d4e)
