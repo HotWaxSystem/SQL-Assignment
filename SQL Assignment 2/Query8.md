@@ -20,3 +20,4 @@ select ii.product_id,
 from Inventory_Item ii;
 
 ```
+![image](https://github.com/user-attachments/assets/041f53a1-7e65-4205-93b2-13ecc9926589)
