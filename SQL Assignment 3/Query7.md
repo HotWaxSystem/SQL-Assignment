@@ -27,3 +27,4 @@ Group by oisg.facility_id
 order by TOTAL_ONE_DAY_SHIP_ORDERS desc;
 
 ```
+![image](https://github.com/user-attachments/assets/0a5a8335-bae1-4960-bacb-cca554d600f9)
