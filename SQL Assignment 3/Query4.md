@@ -20,3 +20,4 @@ JOIN return_adjustment ra on ra.return_id = ri.return_id
 where ra.return_adjustment_type_id = 'APPEASEMENT';
 
 ```
+![image](https://github.com/user-attachments/assets/6fd86926-6986-46f7-a7a4-bd0cea6d0134)
