@@ -41,4 +41,5 @@ JOIN order_status os ON os.order_id=oh.order_id
 WHERE os.status_id='ORDER_COMPLETED' and date(os.status_datetime)>=date('2023-08-01') AND date(os.status_datetime)<=date('2023-08-31');   
 
 ```
+![image](https://github.com/user-attachments/assets/d10595a1-bc0e-4f08-b822-74959fddc46f)
 
