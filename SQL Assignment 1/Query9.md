@@ -16,3 +16,4 @@ where status_id = 'Order_Completed' group by hr ORDER BY HR;
 
 ```
 
+![image](https://github.com/user-attachments/assets/b7598098-edb1-485e-ac0c-2b2e9f53fec0)
