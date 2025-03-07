@@ -22,4 +22,5 @@ JOIN shopify_product sp ON sp.product_id = p.product_id
 where gi.id_value is not null and gi.good_identification_type_id='ERP_ID';
 
 ```
+![image](https://github.com/user-attachments/assets/05b3df3a-d1c9-4f2a-bc03-d82f57f8223a)
 
