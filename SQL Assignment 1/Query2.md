@@ -19,3 +19,4 @@ JOIN PRODUCT_TYPE pt ON p.product_type_id = pt.product_type_id
 where pt.is_physical='Y' and p.sales_discontinuation_date is null;
 
 ```
+![image](https://github.com/user-attachments/assets/8437a26e-f954-41f9-bbe3-b5b6b8fe3894)
