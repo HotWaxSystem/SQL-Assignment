@@ -39,3 +39,5 @@ AND oh.status_id = 'ORDER_COMPLETED'
 AND oh.order_type_id = 'SALES_ORDER';
 
 ```
+
+![image](https://github.com/user-attachments/assets/d3e304cb-0c98-4c46-af1e-b666fd64f691)
