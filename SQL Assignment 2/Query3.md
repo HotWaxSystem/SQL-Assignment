@@ -25,3 +25,6 @@ JOIN postal_address pa ON pa.contact_mech_id = ocm.contact_mech_id
 where pa.state_province_geo_id = 'NY' 
 AND oi.status_id = 'ITEM_COMPLETED' 
 GROUP BY p.product_id,pa.city;
+
+```
+![image](https://github.com/user-attachments/assets/b4899b5d-a6df-4ac6-859d-bbb56460d060)
