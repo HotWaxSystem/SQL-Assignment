@@ -28,3 +28,4 @@ JOIN inventory_item ii ON ii.inventory_item_id=it.inventory_item_id
 JOIN order_item_ship_grp_inv_res oisgir ON oisgir.inventory_item_id=it.inventory_item_id;
 
 ```
+![image](https://github.com/user-attachments/assets/2c201951-3d17-4a78-99ea-74e9d4045e18)
