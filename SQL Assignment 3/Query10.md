@@ -23,3 +23,4 @@ JOIN facility_type ft on ft.facility_type_id = f. facility_type_id
 where ft.parent_type_id = 'VIRTUAL_FACILITY';
 
 ```
+![image](https://github.com/user-attachments/assets/8d809194-ffa6-454a-8e9f-9479c3a9ece0)
