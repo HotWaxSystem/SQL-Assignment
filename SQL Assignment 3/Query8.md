@@ -24,3 +24,4 @@ JOIN Party pty on pty.party_id = pr.party_id
 where pty.status_id is not null;
 
 ```
+![image](https://github.com/user-attachments/assets/2615e485-20d1-4642-bf6c-c054e6e0f804)
