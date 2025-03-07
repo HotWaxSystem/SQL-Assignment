@@ -34,3 +34,5 @@ JOIN person per ON per.party_id = pcm.party_id
 WHERE pa.state_province_geo_id = 'NY';
 
 ```
+![image](https://github.com/user-attachments/assets/2373e6a3-7ad5-49e9-b1e3-7bd4d9a5d2e4)
+
