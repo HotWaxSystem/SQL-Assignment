@@ -32,3 +32,4 @@ JOIN order_header oh ON oh.order_id=ri.order_id
 where ri.status_id='RETURN_COMPLETED';
 
 ```
+![image](https://github.com/user-attachments/assets/924e672c-6bfd-4672-8b74-cf687dfac4c3)
