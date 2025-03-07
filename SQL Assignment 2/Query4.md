@@ -25,3 +25,4 @@ GROUP BY f.facility_id
 order by total_revenue desc;
 
 ```
+![image](https://github.com/user-attachments/assets/8f138391-4ad1-4773-a41a-12c3bba453b2)
