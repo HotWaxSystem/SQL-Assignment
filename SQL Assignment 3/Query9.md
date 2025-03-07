@@ -17,3 +17,4 @@ SELECT p.product_id,
 FROM product p JOIN product_facility pf ON pf.product_id=p.product_id
 Group by p.product_id;
 ```
+![image](https://github.com/user-attachments/assets/0c65868e-1603-4319-9421-9e0b0c6e4f16)
