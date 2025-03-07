@@ -22,3 +22,4 @@ JOIN shipment s on s.shipment_id = os.shipment_id
 where s.status_id != 'SHIPMENT_SHIPPED' AND opp.status_id = 'PAYMENT_SETTLED' or s.status_id is null;
 
 ```
+![image](https://github.com/user-attachments/assets/6d48e2f0-e060-4685-956d-2a9c806a86ac)
