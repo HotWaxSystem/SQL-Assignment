@@ -22,3 +22,4 @@ JOIN Order_Item_Ship_Group oisg on oisg.order_id = oh.order_id
 JOIN Picklist pi on pi.facility_id = oisg.facility_id
 where pi.status_id is null;
 ```
+![image](https://github.com/user-attachments/assets/9a6cf9ad-6ecb-452e-8329-8ef679b6c555)
