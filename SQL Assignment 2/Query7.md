@@ -24,3 +24,4 @@ JOIN facility_type ft ON ft.facility_type_id = f.facility_type_id
 WHERE oh.status_id !='ORDER_COMPLETED' AND oh.status_id !='ORDER_CANCELLED';
 
 ```
+![image](https://github.com/user-attachments/assets/f198bb95-e90c-48fc-a1a5-5db4495dc6db)
