@@ -23,3 +23,4 @@ JOIN inventory_item ii on ii.inventory_item_id = iiv.inventory_item_id
 where iiv.variance_reason_id = 'VAR_LOST' or iiv.variance_reason_id = 'VAR_DAMAGED';
 
 ```
+![image](https://github.com/user-attachments/assets/47d57a30-91f4-40f8-b936-15c3f96d6499)
