@@ -37,3 +37,5 @@ WHERE CAST(oh.order_date AS DATE)>='2023-10-01' AND CAST(oh.order_date AS DATE)<
 AND (oh.status_id='ORDER_CREATED' OR oh.status_id='ORDER_COMPLETED' ) AND ocm.CONTACT_MECH_PURPOSE_TYPE_ID='SHIPPING_LOCATION';
 
 ```
+![image](https://github.com/user-attachments/assets/93a7f7e6-429e-4f04-8d25-c89ec74e0d8b)
+
