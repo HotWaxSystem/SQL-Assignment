@@ -19,3 +19,4 @@ AND rh.return_date < DATE_FORMAT(CURDATE(), '%Y-%m-01')) AND ri.order_id IN(sele
 order by rh.FROM_PARTY_ID;
 
 ```
+![image](https://github.com/user-attachments/assets/607c888a-4bc1-4895-9031-62092653b2fa)
