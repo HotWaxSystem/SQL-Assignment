@@ -19,3 +19,4 @@ from order_header oh
 group by oh.sales_channel_enum_id;
 
 ```
+![image](https://github.com/user-attachments/assets/9749bf23-dabe-4bae-93ef-2cba75185072)
