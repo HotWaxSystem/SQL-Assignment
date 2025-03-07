@@ -21,3 +21,4 @@ LEFT JOIN GOOD_IDENTIFICATION gi on p.product_id = gi.product_id
 where gi.id_value is null OR gi.id_value='' and gi.good_identification_type_id='ERP_ID';
 
 ```
+![image](https://github.com/user-attachments/assets/36745100-60d6-4f7c-88b3-bb011bd596fa)
