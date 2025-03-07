@@ -18,3 +18,4 @@ where oisg.shipment_method_type_id = 'STOREPICKUP'
 and YEAR(oh.order_date)=YEAR(current_date())-1;
 
 ```
+![image](https://github.com/user-attachments/assets/15abd11f-5541-4e47-b0a3-fe218bb1eeda)
