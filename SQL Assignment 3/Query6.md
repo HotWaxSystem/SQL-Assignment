@@ -24,3 +24,4 @@ SELECT order_id FROM return_item GROUP by order_id having count(order_id)>1)
 ORDER BY ri.order_id,rh.return_date;
 
 ```
+![image](https://github.com/user-attachments/assets/702e6f51-cbd6-4c45-ba02-9967d3047abc)
