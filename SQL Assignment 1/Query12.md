@@ -15,3 +15,4 @@ on f.facility_id=pf.FACILITY_ID
 where f.FACILITY_TYPE_ID = 'CONFIGURATION' and pf.MINIMUM_STOCK is not null order by THRESHOLD DESC;
 
 ```
+![image](https://github.com/user-attachments/assets/5666d53c-1bfd-4f4f-9a6f-d9e6c2ae58a4)
