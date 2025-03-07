@@ -27,3 +27,4 @@ JOIN Product_facility pf on pf.product_id = p.product_id
 where pf.minimum_stock > ii.quantity_on_hand_total;
 
 ```
+![image](https://github.com/user-attachments/assets/44b4de8d-f880-459b-a52f-ad7e75fba416)
