@@ -20,3 +20,4 @@ JOIN order_payment_preference opp on opp.order_id = oh.order_id
 where oh.status_id = 'ORDER_CREATED' and oh.order_type_id='SALES_ORDER';
 
 ```
+![image](https://github.com/user-attachments/assets/22fbdd91-a04f-40eb-af57-f7763db5e55c)
