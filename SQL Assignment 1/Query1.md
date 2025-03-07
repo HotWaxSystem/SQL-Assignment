@@ -27,3 +27,4 @@ where pr.role_type_id = 'CUSTOMER'
 AND p.created_stamp BETWEEN '2023-06-01' AND '2023-06-30';
 
 ```
+![image](https://github.com/user-attachments/assets/26ed00b4-7bd7-48b8-80c1-97916bc69f2d)
