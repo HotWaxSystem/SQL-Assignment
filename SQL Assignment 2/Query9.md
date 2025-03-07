@@ -20,3 +20,4 @@ select os.order_id,
 FROM order_status os WHERE os.order_item_seq_id is not null;
 
 ```
+![image](https://github.com/user-attachments/assets/c98471c2-8e15-4463-9b4a-329b30cbcfb6)
