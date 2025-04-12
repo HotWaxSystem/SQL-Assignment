@@ -23,3 +23,4 @@ JOIN Shipment s on s.shipment_id = os.shipment_id
 where s.status_id != 'SHIPMENT_SHIPPED';
 
 ```
+![image](https://github.com/user-attachments/assets/c45e271d-209c-4ce9-bd24-35006c61124d)
