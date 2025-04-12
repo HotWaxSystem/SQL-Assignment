@@ -38,3 +38,4 @@ group by oh.order_id,
          pa.state_province_geo_id;
 
 ```
+![image](https://github.com/user-attachments/assets/0b98a920-93ad-46ef-8994-6e708f52d1fa)
