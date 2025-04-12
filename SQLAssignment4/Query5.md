@@ -26,3 +26,4 @@ where ss.status_id = 'SHIPMENT_SHIPPED'
 group by os.order_id, os.ship_group_seq_id,os.shipment_id,oisg.facility_id,ss.status_date;
 
 ```
+![image](https://github.com/user-attachments/assets/6c0f1b05-666c-44e3-9f29-c6e90ecc759f)
