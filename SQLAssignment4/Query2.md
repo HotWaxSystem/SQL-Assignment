@@ -25,3 +25,4 @@ JOIN Shipment_Route_Segment srs on srs.shipment_id = s.shipment_id
 where srs.TRACKING_ID_NUMBER = '794681786648';
 
 ```
+![image](https://github.com/user-attachments/assets/f5415c2a-3f12-471d-86d4-5a715bbd2090)
