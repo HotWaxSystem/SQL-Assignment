@@ -25,3 +25,4 @@ JOIN return_status rs on rs.return_id = rh.return_id
 where rh.status_id = 'RETURN_COMPLETED' and (rs.status_datetime >= DATE_FORMAT(CURDATE() - INTERVAL 1 MONTH, '%Y-%m-01')
 AND rs.status_datetime < DATE_FORMAT(CURDATE(), '%Y-%m-01'));
 ```
+![image](https://github.com/user-attachments/assets/8e4ebc2c-522c-4fba-a909-625d2691322a)
