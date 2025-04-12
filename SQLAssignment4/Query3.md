@@ -17,3 +17,4 @@ where ss.status_id = 'SHIPMENT_SHIPPED' and ss.status_date BETWEEN '2022-01-01' 
 group by extract(month from ss.status_date);
 
 ```
+![image](https://github.com/user-attachments/assets/05ed5ff7-ca64-4a1a-b0fc-034bab89574d)
