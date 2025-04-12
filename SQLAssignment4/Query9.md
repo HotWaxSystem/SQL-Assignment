@@ -15,9 +15,10 @@ select count(oa.order_id) as TotalOrders,
 from Order_Adjustment oa 
 JOIN Order_Header oh on oh.order_id = oa.order_id
 where oa.order_adjustment_type_id = 'SHIPPING_CHARGES' and
-      oh.order_date BETWEEN DATE_FORMAT(CURDATE() - INTERVAL 1 MONTH, '%Y-%m-01') and
+      oh.order_date BETWEEN DATE_FORMAT(CURDATE() - INTERVAL 3 MONTH, '%Y-%m-01') and
 	  LAST_DAY(CURDATE() - INTERVAL 1 MONTH)
 group by oa.order_adjustment_type_id;
 
 
 ```
+![image](https://github.com/user-attachments/assets/65df0cf2-de9c-4d65-892f-145c7e1f3abd)
