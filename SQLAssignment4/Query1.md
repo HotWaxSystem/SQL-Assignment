@@ -20,3 +20,4 @@ JOIN Shipment_Status ss on ss.shipment_id = s.shipment_id
 where ss.status_id = 'SHIPMENT_SHIPPED' and ss.status_date BETWEEN '2022-01-01' AND '2022-01-31';
 
 ```
+![image](https://github.com/user-attachments/assets/3f7a2c22-3390-4100-b181-3750e8375261)
