@@ -26,6 +26,9 @@ JOIN Shipment_Status ss on ss.shipment_id = os.shipment_id
 JOIN Order_Status ors on ors.order_id = os.order_id
 where ss.status_id = 'SHIPMENT_SHIPPED' and 
       ors.status_id = 'ORDER_COMPLETED' and 
-      f.facility_type_id LIKE '%WAREHOUSE';
+      f.facility_type_id LIKE '%WAREHOUSE' and
+      (ss.status_date >= DATE_FORMAT(CURDATE() - INTERVAL 1 MONTH, '%Y-%m-01')
+      and ss.status_date < DATE_FORMAT(CURDATE(), '%Y-%m-01'));
 
 ```
+![image](https://github.com/user-attachments/assets/7a82723e-ea5f-4acf-9467-790ac96f1fe4)
